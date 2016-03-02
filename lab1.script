@@ -1,0 +1,13 @@
+Script started on Wed 02 Mar 2016 08:48:05 PM CST
+]0;root@jordan787878:/[root@jordan787878 /]# whoami;pwd
+root
+/
+]0;root@jordan787878:/[root@jordan787878 /]# git config -l
+user.name=jordan787878
+user.email=j2855001@gmail.com
+]0;root@jordan787878:/[root@jordan787878 /]# git l[Kclone https://github.com/jordan787878/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;root@jordan787878:/[root@jordan787878 /]# exit
+
+Script done on Wed 02 Mar 2016 08:49:01 PM CST
