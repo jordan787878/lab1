@@ -1,0 +1,51 @@
+Script started on Mon 07 Mar 2016 11:55:20 PM CST
+[root@jordan787878 lab1]# cat [K[K[K[Kll
+[00mtotal 40
+-rw-r--r-- 1 root   root      0 Mar  7 23:55 [00mlab1b.script[00m
+-rw-r--r-- 1 jordan jordan  285 Mar  2 21:03 [00mlab1code.cpp[00m
+-rwxr-xr-x 1 jordan jordan 7024 Mar  2 21:04 [01;32mlab1program[00m
+-rw-r--r-- 1 jordan jordan  521 Mar  2 20:49 [00mlab1.script[00m
+-rw-r--r-- 1 jordan jordan  375 Mar  2 21:19 [00mreadme.txt[00m
+[m[root@jordan787878 lab1]# cat lab1o[Kcode.cpp 
+#include <iostream>
+using namespace std;
+int main(void)
+{
+
+   int n;
+   cout << "enter an integer ";
+   cin >> n;
+   cout << n <<  " ";
+  while (n>1)
+  {
+    int a=n%2;
+    
+    if (a==0)
+    {n=n/2;}
+
+    else 
+    {n=3*n+1;}
+
+    cout << n << " ";
+  }
+
+cout << endl;
+return 0;
+}    
+[root@jordan787878 lab1]# 
+[root@jordan787878 lab1]# 
+[root@jordan787878 lab1]# ll
+[00mtotal 40
+-rw-r--r-- 1 root   root      0 Mar  7 23:55 [00mlab1b.script[00m
+-rw-r--r-- 1 jordan jordan  285 Mar  2 21:03 [00mlab1code.cpp[00m
+-rwxr-xr-x 1 jordan jordan 7024 Mar  2 21:04 [01;32mlab1program[00m
+-rw-r--r-- 1 jordan jordan  521 Mar  2 20:49 [00mlab1.script[00m
+-rw-r--r-- 1 jordan jordan  375 Mar  2 21:19 [00mreadme.txt[00m
+[m[root@jordan787878 lab1]# ./lab1program 
+enter an integer 22
+22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 
+[root@jordan787878 lab1]# 
+[root@jordan787878 lab1]# 
+[root@jordan787878 lab1]# exit
+
+Script done on Mon 07 Mar 2016 11:55:47 PM CST
